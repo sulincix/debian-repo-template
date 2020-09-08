@@ -1,0 +1,13 @@
+Package: foo
+Architecture: all
+Version: 1.0
+Maintainer: Ali Riza Keskin <parduscix@gmail.com>
+Installed-Size: 1
+Filename: pool/main/f/foo/foo_1.0_all.deb
+Size: 736
+MD5sum: ff25e21af1d1247d805ebd5387dda9ff
+SHA1: dd73f65d0e5d1d13004969020fd570ab6bf33367
+SHA256: 26c401a5335288d9b28e194b6229a85bfd9838f5f65e705bf3b7b0e727a08838
+SHA512: 2dc6d9266d6910058494a15eaab96e3cb188ab74d669996162255d2cdd3dffe9d8cad0120652c6c45f5989b7815b3dcf7d5c96339f7435052cb39bad14d65867
+Description: Foo package
+

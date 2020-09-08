@@ -29,12 +29,12 @@ mv $cachedir/index/Packages.non64 $cachedir/index/dists/pardus/non-free/binary-a
 mv $cachedir/index/Packages.non32 $cachedir/index/dists/pardus/non-free/binary-i386/Packages
 mv $cachedir/index/Packages.con64 $cachedir/index/dists/pardus/contrib/binary-amd64/Packages
 mv $cachedir/index/Packages.con32 $cachedir/index/dists/pardus/contrib/binary-i386/Packages
-gzip $cachedir/index/dists/pardus/main/binary-amd64/Packages
-gzip $cachedir/index/dists/pardus/main/binary-i386/Packages
-gzip $cachedir/index/dists/pardus/non-free/binary-amd64/Packages
-gzip $cachedir/index/dists/pardus/non-free/binary-i386/Packages
-gzip $cachedir/index/dists/pardus/contrib/binary-amd64/Packages
-gzip $cachedir/index/dists/pardus/contrib/binary-i386/Packages
+gzip -k $cachedir/index/dists/pardus/main/binary-amd64/Packages
+gzip -k $cachedir/index/dists/pardus/main/binary-i386/Packages
+gzip -k $cachedir/index/dists/pardus/non-free/binary-amd64/Packages
+gzip -k $cachedir/index/dists/pardus/non-free/binary-i386/Packages
+gzip -k $cachedir/index/dists/pardus/contrib/binary-amd64/Packages
+gzip -k $cachedir/index/dists/pardus/contrib/binary-i386/Packages
 cp -rf $cachedir/index/* $srvdir
 echo "Finish indexing" >> $srvdir/dists/index.log
 date >>  $srvdir/dists/index.log
