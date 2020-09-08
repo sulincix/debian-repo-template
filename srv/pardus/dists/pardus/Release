@@ -1,8 +1,8 @@
 Origin: Pardus
 Label: Pardus
-Suite: ondokuz
+Suite: pardus
 Version: 19.5
-Codename: ondokuz
+Codename: pardus
 Changelogs: https://sulincix.github.io
 Date: Sat, 01 Aug 2020 11:04:59 UTC
 Acquire-By-Hash: yes
@@ -10,16 +10,16 @@ Architectures: amd64 i386
 Components: main contrib non-free
 Description: Pardus 19.5 test repository
 MD5Sum:
-  d3cfaa9b34533b6bd991078c5b4f0475  /home/a/test/srv/pardus/dists/pardus/Release
+  282b984d06ca1fb1f29ee6e78e2eda03  /home/a/test/srv/pardus/dists/pardus/Release
   d3979f7e69655dcb641d283f1af376a7  /home/a/test/srv/pardus/dists/pardus/main/binary-i386/Packages
-  4e0a1d8b315d99b6ab4e68e0d86510b2  /home/a/test/srv/pardus/dists/pardus/main/binary-i386/Packages.gz
+  0270b0287abd69d7ba7670c3eb24cbc1  /home/a/test/srv/pardus/dists/pardus/main/binary-i386/Packages.gz
   d3979f7e69655dcb641d283f1af376a7  /home/a/test/srv/pardus/dists/pardus/main/binary-amd64/Packages
-  4e0a1d8b315d99b6ab4e68e0d86510b2  /home/a/test/srv/pardus/dists/pardus/main/binary-amd64/Packages.gz
+  0270b0287abd69d7ba7670c3eb24cbc1  /home/a/test/srv/pardus/dists/pardus/main/binary-amd64/Packages.gz
   d41d8cd98f00b204e9800998ecf8427e  /home/a/test/srv/pardus/dists/pardus/non-free/binary-i386/Packages
-  3290cc81e2f929c03975f165e0989684  /home/a/test/srv/pardus/dists/pardus/non-free/binary-i386/Packages.gz
+  de9e533c25149db7878032320d7d13db  /home/a/test/srv/pardus/dists/pardus/non-free/binary-i386/Packages.gz
   d41d8cd98f00b204e9800998ecf8427e  /home/a/test/srv/pardus/dists/pardus/non-free/binary-amd64/Packages
-  3290cc81e2f929c03975f165e0989684  /home/a/test/srv/pardus/dists/pardus/non-free/binary-amd64/Packages.gz
+  de9e533c25149db7878032320d7d13db  /home/a/test/srv/pardus/dists/pardus/non-free/binary-amd64/Packages.gz
   d41d8cd98f00b204e9800998ecf8427e  /home/a/test/srv/pardus/dists/pardus/contrib/binary-i386/Packages
-  3290cc81e2f929c03975f165e0989684  /home/a/test/srv/pardus/dists/pardus/contrib/binary-i386/Packages.gz
+  de9e533c25149db7878032320d7d13db  /home/a/test/srv/pardus/dists/pardus/contrib/binary-i386/Packages.gz
   d41d8cd98f00b204e9800998ecf8427e  /home/a/test/srv/pardus/dists/pardus/contrib/binary-amd64/Packages
-  3290cc81e2f929c03975f165e0989684  /home/a/test/srv/pardus/dists/pardus/contrib/binary-amd64/Packages.gz
+  de9e533c25149db7878032320d7d13db  /home/a/test/srv/pardus/dists/pardus/contrib/binary-amd64/Packages.gz

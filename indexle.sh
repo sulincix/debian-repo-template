@@ -44,9 +44,9 @@ rm -rf $cachedir
 cat > $srvdir/dists/pardus/Release << EOF
 Origin: Pardus
 Label: Pardus
-Suite: ondokuz
+Suite: pardus
 Version: 19.5
-Codename: ondokuz
+Codename: pardus
 Changelogs: https://sulincix.github.io
 Date: Sat, 01 Aug 2020 11:04:59 UTC
 Acquire-By-Hash: yes
