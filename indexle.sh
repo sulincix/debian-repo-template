@@ -40,3 +40,19 @@ echo "Finish indexing" >> $srvdir/dists/index.log
 date >>  $srvdir/dists/index.log
 echo "" >> $srvdir/dists/index.log
 rm -rf $cachedir
+#create release
+cat > $srvdir/dists/pardus/Release << EOF
+Origin: Pardus
+Label: Pardus
+Suite: ondokuz
+Version: 19.5
+Codename: ondokuz
+Changelogs: https://sulincix.github.io
+Date: Sat, 01 Aug 2020 11:04:59 UTC
+Acquire-By-Hash: yes
+Architectures: amd64 i386
+Components: main contrib non-free
+Description: Pardus 19.5 test repository
+MD5Sum:
+EOF
+find $srvdir/dists/pardus -type f | xargs md5sum | sed "s/^/  /" >> $srvdir/dists/pardus/Release
