@@ -2,6 +2,10 @@
 <head></head>
 <body>
 Depoyu eklemek için:
-<br><b>echo "deb http://xxxxx/pardus/ main contrib non-free" > /etc/apt/sources.list.d/pardus.list</b>
+<br><b>echo "deb https://sulincix.github.io/debian-repo-template/srv/pardus/ main contrib non-free" > /etc/apt/sources.list.d/pardus.list</b>
+<br>Ardından indexi güncellemek için:
+<br><b>apt-get update --allow-insecure-repositories</b>
+<br>Son olarak bu depodan foo paketini kurmak için:
+<br><b>apt-get install foo  --allow-unauthenticated</b>
 </body>
 </html>
