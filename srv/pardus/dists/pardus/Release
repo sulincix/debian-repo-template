@@ -10,16 +10,15 @@ Architectures: amd64 i386
 Components: main contrib non-free
 Description: Pardus 19.5 test repository
 MD5Sum:
-  282b984d06ca1fb1f29ee6e78e2eda03  /home/a/test/srv/pardus/dists/pardus/Release
-  d3979f7e69655dcb641d283f1af376a7  /home/a/test/srv/pardus/dists/pardus/main/binary-i386/Packages
-  0270b0287abd69d7ba7670c3eb24cbc1  /home/a/test/srv/pardus/dists/pardus/main/binary-i386/Packages.gz
-  d3979f7e69655dcb641d283f1af376a7  /home/a/test/srv/pardus/dists/pardus/main/binary-amd64/Packages
-  0270b0287abd69d7ba7670c3eb24cbc1  /home/a/test/srv/pardus/dists/pardus/main/binary-amd64/Packages.gz
-  d41d8cd98f00b204e9800998ecf8427e  /home/a/test/srv/pardus/dists/pardus/non-free/binary-i386/Packages
-  de9e533c25149db7878032320d7d13db  /home/a/test/srv/pardus/dists/pardus/non-free/binary-i386/Packages.gz
-  d41d8cd98f00b204e9800998ecf8427e  /home/a/test/srv/pardus/dists/pardus/non-free/binary-amd64/Packages
-  de9e533c25149db7878032320d7d13db  /home/a/test/srv/pardus/dists/pardus/non-free/binary-amd64/Packages.gz
-  d41d8cd98f00b204e9800998ecf8427e  /home/a/test/srv/pardus/dists/pardus/contrib/binary-i386/Packages
-  de9e533c25149db7878032320d7d13db  /home/a/test/srv/pardus/dists/pardus/contrib/binary-i386/Packages.gz
-  d41d8cd98f00b204e9800998ecf8427e  /home/a/test/srv/pardus/dists/pardus/contrib/binary-amd64/Packages
-  de9e533c25149db7878032320d7d13db  /home/a/test/srv/pardus/dists/pardus/contrib/binary-amd64/Packages.gz
+  d3979f7e69655dcb641d283f1af376a7  dists/pardus/main/binary-i386/Packages
+  ec39cdd98ba2f6612b62947cc9862933  dists/pardus/main/binary-i386/Packages.gz
+  d3979f7e69655dcb641d283f1af376a7  dists/pardus/main/binary-amd64/Packages
+  ec39cdd98ba2f6612b62947cc9862933  dists/pardus/main/binary-amd64/Packages.gz
+  d41d8cd98f00b204e9800998ecf8427e  dists/pardus/non-free/binary-i386/Packages
+  a62934f663f7e5346d255298afe3aa5d  dists/pardus/non-free/binary-i386/Packages.gz
+  d41d8cd98f00b204e9800998ecf8427e  dists/pardus/non-free/binary-amd64/Packages
+  a62934f663f7e5346d255298afe3aa5d  dists/pardus/non-free/binary-amd64/Packages.gz
+  d41d8cd98f00b204e9800998ecf8427e  dists/pardus/contrib/binary-i386/Packages
+  a62934f663f7e5346d255298afe3aa5d  dists/pardus/contrib/binary-i386/Packages.gz
+  d41d8cd98f00b204e9800998ecf8427e  dists/pardus/contrib/binary-amd64/Packages
+  a62934f663f7e5346d255298afe3aa5d  dists/pardus/contrib/binary-amd64/Packages.gz

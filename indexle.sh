@@ -55,4 +55,5 @@ Components: main contrib non-free
 Description: Pardus 19.5 test repository
 MD5Sum:
 EOF
-find $srvdir/dists/pardus -type f | xargs md5sum | sed "s/^/  /" >> $srvdir/dists/pardus/Release
+cd $srvdir
+find dists/pardus -type f | grep -v "Release" | xargs md5sum | sed "s/^/  /" >> dists/pardus/Release
