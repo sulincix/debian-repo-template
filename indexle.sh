@@ -56,4 +56,4 @@ Description: Pardus 19.5 test repository
 MD5Sum:
 EOF
 cd $srvdir
-find dists/pardus -type f | grep -v "Release" | xargs md5sum | sed "s/^/  /" >> dists/pardus/Release
+find dists/pardus -type f| xargs md5sum | sed "s/^/  /" >> dists/pardus/Release
