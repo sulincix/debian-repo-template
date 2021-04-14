@@ -2,6 +2,7 @@
 curdir=$(pwd)
 srvdir=$curdir/srv/stable
 cachedir=$curdir/.cache
+gpgkey="1F7B7D18FBE8F52F90E8F923618AE0AEF8D16C2D"
 rm -rf $cachedir
 mkdir -p $cachedir/index
 mkdir -p $srvdir/dists/stable/{main,contrib,non-free}
@@ -35,6 +36,12 @@ gzip -k $cachedir/index/dists/stable/non-free/binary-amd64/Packages
 gzip -k $cachedir/index/dists/stable/non-free/binary-i386/Packages
 gzip -k $cachedir/index/dists/stable/contrib/binary-amd64/Packages
 gzip -k $cachedir/index/dists/stable/contrib/binary-i386/Packages
+xz -k $cachedir/index/dists/stable/main/binary-amd64/Packages
+xz -k $cachedir/index/dists/stable/main/binary-i386/Packages
+xz -k $cachedir/index/dists/stable/non-free/binary-amd64/Packages
+xz -k $cachedir/index/dists/stable/non-free/binary-i386/Packages
+xz -k $cachedir/index/dists/stable/contrib/binary-amd64/Packages
+xz -k $cachedir/index/dists/stable/contrib/binary-i386/Packages
 cp -rf $cachedir/index/* $srvdir
 echo "Finish indexing" >> $srvdir/dists/index.log
 date >>  $srvdir/dists/index.log
@@ -72,4 +79,4 @@ echo "SHA512:" >>  Release
 find . -type f | xargs sha512sum | prepareLine  >> Release
 gpg --clearsign -o InRelease Release
 gpg -abs -o Release.gpg Release
-gpg --output Release.key --armor --export 1F7B7D18FBE8F52F90E8F923618AE0AEF8D16C2D
+gpg --output Release.key --armor --export "$gpgkey"
